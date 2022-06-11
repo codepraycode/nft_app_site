@@ -1,4 +1,4 @@
-import {SectionWrapper} from './components';//Download,Features,
+import {Download,Features,SectionWrapper} from './components';
 import assets from './assets';
 
 const App = ()=> {
@@ -27,6 +27,35 @@ const App = ()=> {
         mockupImg={assets.homeCards}
         reverse
       />
+
+
+      <Features/>
+
+
+      <SectionWrapper
+        
+        title="Deployment"
+        
+        description="ProNef is build using Expo which runs natively on all users devices. You can easily get your app into people's hands."
+
+        
+        mockupImg={assets.feature}
+        reverse
+      />
+
+
+      <SectionWrapper
+        
+        title="Creative ways to showcase the store"
+        
+        description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of the specific NFT."
+        mockupImg={assets.mockup}
+        banner={"banner02"}
+      />
+
+
+      <Download/>
+
     </>
   );
 }
