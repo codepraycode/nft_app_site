@@ -15,7 +15,7 @@ const Button = ({assetUrl, link}) => {
 
       <div className={`flex flex-col justify-start ml-4`}>
         <p className={`${styles.btnText} font-normal text-xs`}>
-          View it on
+          Get it on
         </p>
 
         <p className={`${styles.btnText} font-bold text-sm`}>
