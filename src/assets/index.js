@@ -8,14 +8,16 @@ import react from "./react.png";
 import scene from "./scene.png";
 import mockup from "./mockup.png";
 
-export default {
-  homeHero,
-  homeCards,
-  feature,
-  expo,
-  expo02,
-  javascript,
-  react,
-  scene,
-  mockup,
+const assets = {
+    homeHero,
+    homeCards,
+    feature,
+    expo,
+    expo02,
+    javascript,
+    react,
+    scene,
+    mockup,
 };
+
+export default assets;
